@@ -68,17 +68,17 @@ await s4d.client.login((process.env.TOKEN)).catch((e) => {
     });
 
 s4d.client.on('ready', async () => {
-  channelid = '978993379167846461';
-  botid = '977981288474632202';
+  channelid = 'put the channel id where will the chatbot';
+  botid = 'put the bots id here';
 
 });
 
 s4d.client.on('messageCreate', async (s4dmessage) => {
-  channelid = '978993379167846461';
-  botid = '977981288474632202';
+  channelid = 'put the channel id where will the chatbot';
+  botid = 'put the bots id here';
   if (((s4dmessage.channel).id) == channelid && (s4dmessage.mentions.members.first().user) == botid) {
     (s4dmessage.channel).sendTyping();
-        client.chat({message:s4dmessage.content, name:'Catto Boi', owner:"zipy :)", user: 849690256945184828, language:"en"}).then(reply => {
+        client.chat({message:s4dmessage.content, name:'bots name', owner:"put anything here", user: 849690256945184828, language:"en"}).then(reply => {
             s4dmessage.reply({content:String(reply), allowedMentions: {
 				repliedUser: true
 			}})});}
