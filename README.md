@@ -9,10 +9,7 @@ How to set it up:
   4. Get all the dependencies.
   5. Put your token on line 60 replacing
      (process.env.TOKEN) if you're going
-     to host it on your computer, leave
-     it like that. If you're using repl
-     create a secret variable in repl
-     called TOKEN.
+     to host it on your computer.
   6. Type "npm start"
   7. You're all set up!
 
