@@ -10,9 +10,8 @@ How to set it up:
   5. Put your token on line 60 replacing
      (process.env.TOKEN) if you're going
      to host it on your computer, leave
-     it like that if you're using repl
-5.5. (if you're hosting using repl)
-     Create a secret variable in repl
+     it like that. If you're using repl
+     create a secret variable in repl
      called TOKEN.
   6. Type "npm start"
   7. You're all set up!
