@@ -6,12 +6,14 @@ How to set it up:
   1. Get all files.
   2. Go to the file directory and open either Powershell or cmd
   3. Make sure you have node.js.
-  4. Get all the dependencies.
-  5. Put your token on line 60 replacing
+  4. Do "npm start"
+  5. Get all the dependencies. (by doing "npm i (dependencies)")
+  6. Put your token on line 60 replacing
      (process.env.TOKEN) if you're going
      to host it on your computer.
-  6. Type "npm start"
-  7. You're all set up!
+  7. Put your channel id and bot ids and the token in the code
+  8. Type "npm start"
+  9. You're all set up!
 
 Made in Scratch For Discord with few code modifications
 
