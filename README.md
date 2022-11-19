@@ -1,3 +1,6 @@
+# broken and im lazy to fix it!!!!!!
+dont use it unless you really want to
+
 # Catto Bot
 A bot for the Catto Boi Central server, mainly a chat bot.
 
